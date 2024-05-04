@@ -2,12 +2,33 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Fancy Lab</title>
+    <title>Document</title>
 </head>
-<body>
-    <p>Test</p>
+<body <?php body_class(); ?>>
+    <div id="page" class="site">
+        <header>
+            <section class="search">Search</section>
+            <section class="top-bar">
+                <div class="brand">Logo</div>
+                <div class="second-column">
+                    <div class="acount">Account</div>
+                    <div class="main-menu">Menu</div>
+                </div>
+            </section>
+        </header>
+        <div class="content-area">
+            <main>
+                <section class="slider">Slider</section>
+                <section class="popular-products">Popular Products</section>
+                <section class="new-arrivals">New Arrivals</section>
+                <section class="deal-of-the-week">Deal of the Week</section>
+                <section class="lab-blog">News</section>
+            </main>
+        </div>
+        <footer>
+            <section class="footer-widgets">Footer Widgets</section>
+            <section class="copyright">Copyright</section>
+        </footer>
+    </div>
 </body>
 </html>
