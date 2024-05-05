@@ -7,7 +7,7 @@ Description: Twenty Twenty-Three is designed to take advantage of the new design
 Requires at least: 6.1
 Tested up to: 6.5
 Requires PHP: 5.6
-Version: 1.4
+Version: 1.7
 License: GNU General Public License v2 or later
 License URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 Text Domain: fancy-lab
@@ -55,4 +55,14 @@ Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, feature
 
 .footer-menu ul li.current-menu-item a {
     color: #ff9292;
+}
+
+/*General*/
+.size-auto,
+.size-full,
+.size-large,
+.size-medium,
+.size-thumbnail {
+    max-width: 100%;
+    height: auto;
 }
