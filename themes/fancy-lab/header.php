@@ -21,7 +21,13 @@
                     <div class="brand col-3">Logo</div>
                     <div class="second-column col-9">
                         <div class="acount">Account</div>
-                        <div class="main-menu">Menu</div>
+                        <div class="main-menu">
+                            <?php wp_nav_menu(
+                                    array(
+                                            'theme_location' => 'fancy_lab_main_menu'
+                                    )
+                            ) ?>
+                        </div>
                     </div>
                 </div>
             </div>

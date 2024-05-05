@@ -14,14 +14,22 @@ Text Domain: fancy-lab
 Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, block-patterns, rtl-language-support, sticky-post, threaded-comments, translation-ready, wide-blocks, block-styles, style-variations, accessibility-ready, blog, portfolio, news
 */
 
-.top-bar {
-    background: red;
-    height: 70px;
-}
 .brand {
     background: green;
 }
 
 .second-column {
     background: yellow;
+}
+.main-menu ul{
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 0;
+}
+
+.main-menu ul li {
+    display: inline;
+    margin: 0 5px 0 0;
 }
