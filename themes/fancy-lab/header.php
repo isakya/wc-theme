@@ -24,7 +24,7 @@
                         <div class="main-menu">
                             <?php wp_nav_menu(
                                     array(
-                                            'theme_location' => 'fancy_lab_main_menu'
+                                            'theme_location' => 'fancy_lab_main_menu',
                                     )
                             ) ?>
                         </div>
