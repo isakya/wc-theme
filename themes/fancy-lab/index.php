@@ -1,21 +1,4 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Document</title>
-</head>
-<body <?php body_class(); ?>>
-    <div id="page" class="site">
-        <header>
-            <section class="search">Search</section>
-            <section class="top-bar">
-                <div class="brand">Logo</div>
-                <div class="second-column">
-                    <div class="acount">Account</div>
-                    <div class="main-menu">Menu</div>
-                </div>
-            </section>
-        </header>
+<?php get_header(); ?>
         <div class="content-area">
             <main>
                 <section class="slider">Slider</section>
@@ -25,10 +8,4 @@
                 <section class="lab-blog">News</section>
             </main>
         </div>
-        <footer>
-            <section class="footer-widgets">Footer Widgets</section>
-            <section class="copyright">Copyright</section>
-        </footer>
-    </div>
-</body>
-</html>
+<?php get_footer(); ?>
