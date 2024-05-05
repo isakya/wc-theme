@@ -13,3 +13,8 @@ License URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 Text Domain: fancy-lab
 Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, block-patterns, rtl-language-support, sticky-post, threaded-comments, translation-ready, wide-blocks, block-styles, style-variations, accessibility-ready, blog, portfolio, news
 */
+
+.top-bar {
+    background: red;
+    height: 70px;
+}
