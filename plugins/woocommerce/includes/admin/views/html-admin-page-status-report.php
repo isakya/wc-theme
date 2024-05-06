@@ -963,7 +963,7 @@ if ( 0 < $mu_plugins_count ) :
 		<tr>
 			<td data-export-label="Archive Template"><?php esc_html_e( 'Archive template', 'woocommerce' ); ?>:</td>
 			<td class="help">&nbsp;</td>
-			<td><?php esc_html_e( 'Your theme has a woocommerce.php file, you will not be able to override the woocommerce/archive-product.php custom template since woocommerce.php has priority over archive-product.php. This is intended to prevent display issues.', 'woocommerce' ); ?></td>
+			<td><?php esc_html_e( 'Your theme has a woocommerce.php file, you will not be able to override the woocommerce/archive-product-old.php custom template since woocommerce.php has priority over archive-product-old.php. This is intended to prevent display issues.', 'woocommerce' ); ?></td>
 		</tr>
 		<?php endif ?>
 		<?php if ( ! empty( $theme['overrides'] ) ) : ?>

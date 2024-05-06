@@ -41,3 +41,14 @@ function fancy_lab_config() {
 
 }
 add_action('after_setup_theme', 'fancy_lab_config', 0);
+
+require get_template_directory() . '/inc/wc-modifications.php';
+
+/*使用过滤器更改页面内容*/
+//add_filter('woocommerce_show_page_title', 'fancy_lab_remove_shop_title');
+//function fancy_lab_remove_shop_title($val) {
+//    $val = false;
+//    return $val;
+//}
+
+ add_action('woocommerce_after_shop_loop_item_title', 'the_excerpt', 1);

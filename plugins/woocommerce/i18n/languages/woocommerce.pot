@@ -19401,7 +19401,7 @@ msgid "Archive template"
 msgstr ""
 
 #: includes/admin/views/html-admin-page-status-report.php:966
-msgid "Your theme has a woocommerce.php file, you will not be able to override the woocommerce/archive-product.php custom template since woocommerce.php has priority over archive-product.php. This is intended to prevent display issues."
+msgid "Your theme has a woocommerce.php file, you will not be able to override the woocommerce/archive-product-old.php custom template since woocommerce.php has priority over archive-product-old.php. This is intended to prevent display issues."
 msgstr ""
 
 #: includes/admin/views/html-admin-page-status-report.php:971

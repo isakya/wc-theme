@@ -198,7 +198,7 @@ class WC_Template_Loader {
 				} elseif ( is_tax( 'product_cat' ) || is_tax( 'product_tag' ) ) {
 					$default_file = 'taxonomy-' . $object->taxonomy . '.php';
 				} elseif ( ! self::has_block_template( 'archive-product' ) ) {
-					$default_file = 'archive-product.php';
+					$default_file = 'archive-product-old.php';
 				} else {
 					$default_file = '';
 				}
@@ -207,7 +207,7 @@ class WC_Template_Loader {
 			( is_post_type_archive( 'product' ) || is_page( wc_get_page_id( 'shop' ) ) ) &&
 			! self::has_block_template( 'archive-product' )
 		) {
-			$default_file = self::$theme_support ? 'archive-product.php' : '';
+			$default_file = self::$theme_support ? 'archive-product-old.php' : '';
 		} else {
 			$default_file = '';
 		}
